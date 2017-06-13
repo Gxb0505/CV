@@ -1,0 +1,26 @@
+﻿生成启动时间为 6/13/2017 3:31:41 PM。
+     1>项目“C:\Users\Roybin\Downloads\cHog\MyTest_Hog\MyTest_Hog.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\opencv1.0\cxcore\include /ID:\opencv1.0\cv\include /ID:\opencv1.0\otherlibs\highgui /ID:\opencv1.0\cvaux\include /ID:\opencv\build\install\instal\include /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt .\MyTest_Hog.cpp
+         MyTest_Hog.cpp
+     1>D:\opencv\build\install\install\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv\build\install\install\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv\build\install\install\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>.\MyTest_Hog.cpp(33): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>.\MyTest_Hog.cpp(34): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>.\MyTest_Hog.cpp(49): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>.\MyTest_Hog.cpp(53): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>.\MyTest_Hog.cpp(59): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>.\MyTest_Hog.cpp(67): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>.\MyTest_Hog.cpp(91): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>.\MyTest_Hog.cpp(179): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>.\MyTest_Hog.cpp(181): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>.\MyTest_Hog.cpp(182): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Roybin\Downloads\cHog\MyTest_Hog\x64\Debug\MyTest_Hog.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\opencv1.0\lib /LIBPATH:D:\opencv\build\install\install\x64\vc12\lib opencv_core310d.lib opencv_imgproc310d.lib opencv_highgui310d.lib opencv_imgcodecs310d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Roybin\Downloads\cHog\MyTest_Hog\x64\Debug\MyTest_Hog.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Roybin\Downloads\cHog\MyTest_Hog\x64\Debug\MyTest_Hog.lib" /MACHINE:X64 x64\Debug\MyTest_Hog.obj
+         MyTest_Hog.vcxproj -> C:\Users\Roybin\Downloads\cHog\MyTest_Hog\x64\Debug\MyTest_Hog.exe
+     1>已完成生成项目“C:\Users\Roybin\Downloads\cHog\MyTest_Hog\MyTest_Hog.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.97
